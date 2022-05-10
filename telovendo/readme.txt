@@ -1,0 +1,6 @@
+la siguiente aplicación está diseñada para permitir crear un usuario el cual es validado
+y posteriormente este usuario es dado de alta por el super usuario para poder acceder al sitio, una vez que puedes 
+ingresar como usuario se te despliegan las vistas de las paginas en el sitio.  El sitio por ser un sitio experimental
+cuenta con formularios, ingreso y salida del sitio, mensaje personalizado de entrada y configuración de barra y pie de pagina
+cpon contenido estático y para todas las páginas.   El sitio es posible de accedera a través de cualquier navegador
+y debe solamente tener creado el entorno virtual en su equipo.

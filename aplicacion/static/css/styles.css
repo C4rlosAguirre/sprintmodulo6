@@ -1,0 +1,23 @@
+h1, p {
+    margin: 2px;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+form {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+nav, footer {
+    background-color: rgb(40, 53, 13);
+}
+footer {
+    margin-top: 2em;
+}
+
+.box {
+    width: 200px;
+  }
+
