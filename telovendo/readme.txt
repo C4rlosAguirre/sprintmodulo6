@@ -2,7 +2,7 @@ la siguiente aplicación está diseñada para permitir crear un usuario el cual 
 y posteriormente este usuario es dado de alta por el super usuario para poder acceder al sitio, una vez que puedes 
 ingresar como usuario se te despliegan las vistas de las paginas en el sitio.  El sitio por ser un sitio experimental
 cuenta con formularios, ingreso y salida del sitio, mensaje personalizado de entrada y configuración de barra y pie de pagina
-cpon contenido estático y para todas las páginas.   El sitio es posible de acceder a través de cualquier navegador
+posee contenido estático para todas las páginas.   El sitio es posible de acceder a través de cualquier navegador
 y debe solamente tener creado el entorno virtual en su equipo.  Como metodos de restricción para ingresar al sitio se provee primero
-de un método de usuario y contraseña para acceder, y por otro lado se bloquean las vistas de la aolicación a quien
+de un método de usuario y contraseña para acceder, y por otro lado se bloquean las vistas de la aplicación a quien
 no haya ingresado usuario y contraseña requeridos para su ingreso al sitio.

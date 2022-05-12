@@ -9,7 +9,7 @@ class Cliente(models.Model):
     apellido = models.CharField(max_length=50)
     edad = models.IntegerField()
     email = models.EmailField(verbose_name="mail del cliente")
-    fecha_contratacion = models.DateField(datetime.date.today())
+    fecha_contratacion = models.DateField()
 
     def __str__(self):
         return self.apellido

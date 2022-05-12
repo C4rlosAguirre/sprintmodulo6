@@ -31,8 +31,8 @@ def create(request):
             cliente.apellido = form.cleaned_data['apellido']
             cliente.edad = form.cleaned_data['edad']
             cliente.email = form.cleaned_data['email']
-            cliente.fecha_contratacion = form.cleaned_data['fecha contratacion']    
-            cliente.save
+            cliente.fecha_contratacion = form.cleaned_data['fecha_contratacion']    
+            cliente.save()
 
         else:
             print('Invalido')
