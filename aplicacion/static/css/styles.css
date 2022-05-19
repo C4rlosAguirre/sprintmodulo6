@@ -10,9 +10,9 @@ form {
     margin-right: 2em;
 }
 
-nav, footer {
-    background-color: rgb(40, 53, 13);
-}
+nav {
+    background-color: rgb(220, 143, 28);
+} 
 footer {
     margin-top: 2em;
 }

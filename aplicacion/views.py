@@ -32,6 +32,7 @@ def create(request):
             cliente.edad = form.cleaned_data['edad']
             cliente.email = form.cleaned_data['email']
             cliente.fecha_contratacion = form.cleaned_data['fecha_contratacion']    
+            cliente.clave = form.cleaned_data['clave']
             cliente.save()
 
         else:

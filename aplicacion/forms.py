@@ -6,10 +6,11 @@ from aplicacion.models import Cliente
 
 from .models import Cliente
 
+            
 class ClienteForm(forms.ModelForm):
     class Meta:
         model = Cliente
-        fields = ('nombre','apellido','edad', 'email', 'fecha_contratacion')
+        fields = ('nombre','apellido','edad','email','fecha_contratacion','clave','status')
 
 class UserRegistrationForm(UserCreationForm):
     email = forms.EmailField()
@@ -19,5 +20,9 @@ class UserRegistrationForm(UserCreationForm):
 
 class Meta:
     model = User
-    fields = ['username', 'email', 'password', 'password2']
+
+    fields = ['username','email','password','password2']
+
     help_texts = {k:"" for k in fields}
+
+    
